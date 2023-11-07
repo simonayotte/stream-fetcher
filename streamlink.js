@@ -5,13 +5,8 @@ import kill from 'tree-kill';
 
 export default class Streamlink extends EventEmitter {
     constructor(stream) {
-        super();
-        this.stream = stream;
-    }
-
-    output = (loc) => {
-        this.outputLoc = loc
-        return this
+        super()
+        this.stream = stream
     }
 
     quality = (qual) => {
@@ -28,21 +23,14 @@ export default class Streamlink extends EventEmitter {
     }
 
     start = (done) => {
-        if (this.outputLoc && fs.existsSync(this.outputLoc)) {
-            this.emit('err', 'File already exists.')
-            return this
-        }
         this.isLive(live => {
             if (!live) {
                 this.emit('err', 'Is not live.')
                 return
             }
             const args = []
-            if (this.outputLoc) {
-                args.push('-o', this.outputLoc)
-            }
             //TODO: Change default quality
-            args.push(this.stream, this.qual || 'best')
+            args.push('--stdout', this.stream, this.qual || 'best')
             this.startTime = Math.floor(Date.now() / 1000)
             this.live = spawn('streamlink', args)
             this.live.stdout.on('data', (d) => {
