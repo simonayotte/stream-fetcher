@@ -50,7 +50,6 @@ export default class Streamlink extends EventEmitter {
         const endOutput = {
             exitCode: code,
             duration: Math.floor(Date.now() / 1000) - this.startTime,
-            output: this.outputLoc,
             startTime: this.startTime,
             stream: this.stream
         }
