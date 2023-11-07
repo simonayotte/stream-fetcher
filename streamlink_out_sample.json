@@ -1,0 +1,115 @@
+{
+  "plugin": "twitch",
+  "metadata": {
+    "id": "49648612013",
+    "author": "zackrawrr",
+    "category": "World of Warcraft",
+    "title": "NEWS AND MORE WOW NEWS !HCGUILD @StarforgeSystems @MadMushroomGG @MythicTalent New Merch: OTKNetwork.com"
+  },
+  "streams": {
+    "audio_only": {
+      "type": "hls",
+      "url": "https://video-weaver.ymq03.hls.ttvnw.net/v1/playlist/CsoE6AzdJhkpd7_i60hklJsLf6jC2U19aoSqDMfFM-3vx8A_bzo3PpQRvq6eKMgpXCKS2WOhBVosh8PGfQ6b_56verGFFQ-FaT7ZLQh5S7aR-_jlm_sbcaWHRjNHJEQjEsDUHU3-QTjsNKLtvsNJRCnv7JA57iXMIlf7fgnZJ6d1r5pxXZIMYDKaqcbvl7xlTvNUQ5ZXV25-sMttp4edEub-DO-wjZu2H1lDxJ-tXhu7O-U4ylMLVt_txItJcexQBJ_iAcDlCAgI-fN6OQ7UzZgjabLQYEyWLyJbSlkfwGogAyEYA3F6Y1ORzJQD-MKFSz57Ie2KmfQwRrpxpl5gd2imC5vrRfe7cmeVmX86Cxj6lrSa2Up55vuzpIufuRFyA5kARGCC_CebbNPr1d7BcyxiSLbKfeb4HaoSM1BB5k2all1czXJCGEwgLP_ObuoOasrv_P9FKJX_4ZyHkLV4T9KdOcXfJ1_aUzUjxMR9xlQFiznmsfK4erGRvvFCIpNJ9HhGuKN6rg6mzEaePN3ijKvOM_E6V0HRVoFoGp0TuxS8WtHLru1_SPQS8k_BtCfNmmWC_v99uYtrGS8c0wPQ41-vOmtYg450jaGnvM28mONrbmAep_-1S7FLlHWk-k8dTXLIz1yk1WmhpowRxbBi0-1Ub-xIQwmO7tRjZB31Fjc2kMSEiwTD91V9Vuzz7pvtVGd7Nzks4kFt1o3atmjlAqi2bkGRKcaYJ9ypezB94GDEvPSt3Hec5x9u8DWaN6UPx7I2opk-tGggN_rxkRoMtvMBxN8oZiTPUg9hIAEqCXVzLWVhc3QtMjD3Bw.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept": "*/*",
+        "Connection": "keep-alive",
+        "referer": "https://player.twitch.tv",
+        "origin": "https://player.twitch.tv"
+      },
+      "master": "https://usher.ttvnw.net/api/channel/hls/zackrawrr.m3u8?player=twitchweb&p=347214&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=3be4dcba91fba3ca4c09326fec556194a77d9071&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22zackrawrr%22%2C%22channel_id%22%3A552120296%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1699307621%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2270.81.221.239%22%2C%22version%22%3A2%7D&fast_bread=True"
+    },
+    "160p": {
+      "type": "hls",
+      "url": "https://video-weaver.ymq03.hls.ttvnw.net/v1/playlist/CsgEXF-s6EkEJ7RWG5gQ0isi-gZook4aCd9y5ztfXJPahdLDexawHU9mS7OQ4z5f30KdjXZ8GXapsrwgmgwW63YQLqUQA7af_ruAXcKDyR2BWhDQHeu0oQx6miLbKK0AxjnChgPkmV8ed6933pGR6VCMIbGpqKXkxa-lF5gcxAL__nKEe1BXdlwHK4rnaZLd9XXJZnG_TUi2SpHxeNd3SKcIjw7-Vl8WbtoQ6-zY5HEaDw4lo-J3_Eomb7iM-TG1kmUbDOTxWrdtrgbM_Tb32sBY8Ue1GKssq3gVPDO6IgyJwq-QxWPBjMJCZB3GiGxQjPGCXPwGJks9HzFVPt78fgeJPqFd_x1zUnt6PDdw22-TxK5q5W6Sjrdpr0xgo0lqVPMBu-UI2nub7V_hDSPCXddg53_ax2-vAh7U2lzJmaV-Ru4lnuTvrO3O9Sv1LnWo3oowGhMpFklqUX2zfjJ4szT0ynDgXSMkao1AeHcj2xE5qAcd2OYF4Mr5zMz3PQ1qoBIn1LO-C9CUthshphqzagwIB13JiTvXt0vYkF2WEEaxTmrO7hFusTWlj5dsi9zCk1JHyVcekrfm29Qp_aMmz_Sj7Oy0YazZRPxOJHxTr-Mgdcx4J9n9llzecJMxBkNAXX9GkdH0RtBLlBm6PI_eXAcF8oX7RwkLiCPgnsLSSCkGAb5MLpN4vA9WbtwxKwao9dP8IdZxobyOspGz2b6wjRpQoNAoTKDjSstHQd8ES4VeEoo8yO23m44eFwDF_xkmQJl3woRi_MiKsGwaDJxYzsWhMbqnbB2zNiABKgl1cy1lYXN0LTIw9wc.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept": "*/*",
+        "Connection": "keep-alive",
+        "referer": "https://player.twitch.tv",
+        "origin": "https://player.twitch.tv"
+      },
+      "master": "https://usher.ttvnw.net/api/channel/hls/zackrawrr.m3u8?player=twitchweb&p=347214&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=3be4dcba91fba3ca4c09326fec556194a77d9071&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22zackrawrr%22%2C%22channel_id%22%3A552120296%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1699307621%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2270.81.221.239%22%2C%22version%22%3A2%7D&fast_bread=True"
+    },
+    "360p": {
+      "type": "hls",
+      "url": "https://video-weaver.ymq03.hls.ttvnw.net/v1/playlist/CsgEptUbx6r-qPgY1ZkDXjOvJvBIWNkmoCpOzmKpiL1vb6o-zkOcgyjv3jMzf-AEdLyoejlKNoMs9r3P_NcJnlpTdW2WFdzWSc4O9Sosuy9ITvRxbpb0ODlQlDBIFcZ2rp0oS-CLP-7IaLvUrQgAIGe-kZXK5L2LWyEcabQw0JDotSLZyFOkjewzHryrETYmBUax9CfKMYbVPzKL3yv5oHRd_mCqsRaDdkMq-dofNDss8g4J01hLC42C_Xuza8KKYpZbjNlKq7T9uwO74tGR9AkkiCRzUf38eWmcqIssWBZYbVdQ2LQbOPpm1HPn7f_uZgfo4rx0_35LxNW9NMWsvAXIdLhfxC6cXWGQZjMg0DAR2sTiMQTEae2wEMeYL9JQ9cHaXQZcvv2KnhLBXt0BhDRnlm0zZ1VeprT5X2S4chx8DRuhRXgcnbVprU_8k1NapQT9Sed242SJ-Q3bHlE8uTUZ-TPQ9hepAKvgVBxKgnVXRQJ0HzyShnMliouO7Euou1P4PTpWPHgoARjcy2GqnJWHpHA5H7Szx-tXI9pwoj4LDYNgLwjwqeKJcKQEROb61aUPBbTpwmOlloR1i0nTvezqW2j_AGaupaLn7nR3HKp4ozXKtR2pex0Bg4wcTvvkncmieMRt6UzwimgiAUHu1zUlpD66ML6b_iqL1UWCVQVTvDz4no10viDZISwMjlu7p0G_JfOSwQmVDfvcaqvlQgxDNbA3pSlJLvSKQSk8dqa5ObZLh9w2VBxyPWW5e9CXRO-cgDXnuqIR30AaDDbM4UWN07xdZnyfXiABKgl1cy1lYXN0LTIw9wc.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept": "*/*",
+        "Connection": "keep-alive",
+        "referer": "https://player.twitch.tv",
+        "origin": "https://player.twitch.tv"
+      },
+      "master": "https://usher.ttvnw.net/api/channel/hls/zackrawrr.m3u8?player=twitchweb&p=347214&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=3be4dcba91fba3ca4c09326fec556194a77d9071&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22zackrawrr%22%2C%22channel_id%22%3A552120296%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1699307621%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2270.81.221.239%22%2C%22version%22%3A2%7D&fast_bread=True"
+    },
+    "480p": {
+      "type": "hls",
+      "url": "https://video-weaver.ymq03.hls.ttvnw.net/v1/playlist/CsgEDavDVY3gR9QJthUtP2gTjAZSLAtg5J-vVgXf7Nh2PK6ANTeA-rxTPbWFKolPPQzR8xS_O-trMcvcLPyuTEl_tV2-GNwW3imuQr38D3uW-OMg-VXU4ge8ft8oFTfqRkIsHCwDyfZpHR0CRF1dgw1z_htYYpdqBYQ9hbJAQkRfPhXtfVeLsIRxwThpOqHKUnGSssyZnqFqnz9nnrnfTt1QFPfLocS3eHkovvGSb6n1lw2u0XSk4t7i-XTsUyKcZP-1m8-OhueWWfRl6WkAzFDnMnu6YJ3BEmQqQQX4bGLcSjU1azm44CvoN_BrS09u5eaeek25gSN3uogYpTM52C1trnfnpmisJRVo-d-CjYBEKIxWQtR74mGSFYGYaRphb9qtoRvAn7_cPvyhCiSUqFVSJMqORKsF-uoSVk9SKmk8ogBM_4cHI3aaV1XT-rD5b3K_4cGQaGuzzvBehJXMwrU9lZbdpifPdKGyfCs905MGaNa6s8l0P7XJbGX6uiOSzbzV5CBWenxixFmRIYMyVcyMJ8X2VLU0KgjW_svct45HsAzUCPlm22dkuQPc9V-hsalnrp5BTVJU3DwLp-gpfTsbtUD8IE4QRqdR8p0phVleuK26gkf_UrDZnW7KP8maWWkkzGWzclSx3oFdCiIxLsiqtbYCsdswjkSc92T3KYz2BXjFyyZwx9XLMUO3PQT6AnPAc1S-B2sH_uetympPMoouEyv0K5QQsOdFUESI76Z4zqyc9s88x1omWz5rpGLYCyKTNMotirv-RgsaDBfGxJYRJa7t_xbmACABKgl1cy1lYXN0LTIw9wc.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept": "*/*",
+        "Connection": "keep-alive",
+        "referer": "https://player.twitch.tv",
+        "origin": "https://player.twitch.tv"
+      },
+      "master": "https://usher.ttvnw.net/api/channel/hls/zackrawrr.m3u8?player=twitchweb&p=347214&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=3be4dcba91fba3ca4c09326fec556194a77d9071&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22zackrawrr%22%2C%22channel_id%22%3A552120296%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1699307621%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2270.81.221.239%22%2C%22version%22%3A2%7D&fast_bread=True"
+    },
+    "720p60": {
+      "type": "hls",
+      "url": "https://video-weaver.ymq03.hls.ttvnw.net/v1/playlist/CsgERHjd5c-EY4LUXphOU2i5PE4w3UPzYrh8eKGP94lYmirVmc2RGyZTNujtBrkZExObFoHdDENjHqV63DMIpxyM0e7oo-R0ezKcj0bAvhH-_jwZsT7pGLoCitAkREYB6TYFvCfxZrD7_sPP-OsddmG8mejEQS4eG9OzzG-f6NcpYfqYGMGl3rjPWjHVoxroaqn7p6LoExV-ppns1HZced-3hnYPQI87FnYAz2A77OzsvCPrMUH-FWOBRB5xOKsc4aIL9KWk593-s4ZQXx1FlUZfpqpjjEqnKhmOyJbV7pTN7AKenN9LmXNeLAs221zly0-wdNVFlDEvI_aDuApEbDP0hZj4do0YBn4OzHj22Iojq3nUiL27eb8iFCD_iSibeLT0wKYjn82AKTXAvD7046lEj-ftdVl8KDH9AGZe1jrQXwL99gDKCCN8BeIpmsqauYB4dfr4Xf5g9TFdzERbDu9LFVZoYYdbAhpPrjekNoAek0ggjhTEe2Ho8CE0JGTdsUBpIx7ay_taMU6R2N96YU19Pz1QG-u8jEqUGjEijWk8EA2I3_3yVz3A4zWEd7xv_zRV4cQ3h5f46FL-581Psv7UqjV8kmbZrXRCHHRVyirje2kfRxM73bg8eDIlTf_WG0EjoIIiijlCUwunt1VS4uyEPAzoMJq666bMRYzkT5_l9DSlWQULjOb6PES5O9orx1wLH2Qhhthree7sVUuw7knXD1PXEeppTm3Qg7lzTxvT8jVDd7lCdRKe5tWv-ypySOH0dAJSHgHq1rsaDAXy9nVhCYwKwWXq1iABKgl1cy1lYXN0LTIw9wc.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept": "*/*",
+        "Connection": "keep-alive",
+        "referer": "https://player.twitch.tv",
+        "origin": "https://player.twitch.tv"
+      },
+      "master": "https://usher.ttvnw.net/api/channel/hls/zackrawrr.m3u8?player=twitchweb&p=347214&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=3be4dcba91fba3ca4c09326fec556194a77d9071&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22zackrawrr%22%2C%22channel_id%22%3A552120296%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1699307621%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2270.81.221.239%22%2C%22version%22%3A2%7D&fast_bread=True"
+    },
+    "1080p60": {
+      "type": "hls",
+      "url": "https://video-weaver.ymq03.hls.ttvnw.net/v1/playlist/CsoEezkWtnxCx2z_h0sXhDWaO92G1A4myc_pgnTdOBJaYtGDt49in-lFqzXgN3uDIxAjgQjDi_nuVco4vtQqaX9acMbhrrDblchOF8tGrd4eIRHM-Tgo5L7JEEUMouQjABzVzhkGFhap-UnymbVPv0ZYdhn5rcJBteq0fULCQ19hC8_ICAcQkogXjl3lY_UNBJuoVSW8oTIBJFl3xiW-Rr4lF6ti4MnifJ3yli_U4BcL92LUyEjmXOJy_pWrOOIftm97Q4GoYScbTv0Pqqr3x-l6bShBKLzfAi3e69oPNZ-VBkSoMD3_fZn9_pXnbxkshb6KKBI7_5RKvFQCh_Ve67jj90xyqTFDC2FgolkB0XjZlMzwqHfGf1LuOdQG7yQ_trfjJlwkyJOGm-fuoXYUNNp9cfYXSsqSUbE3qXaE2d3xaJdgjuv6d_9NHT8Al3FUzRv4Dt-0PD1bkWcA5DWShXTXgSNXDoIxjGVKxjz05-FkeDVTZk2NI1TWwDnAZ7gMP1MD2BjPvcd41Q-euEn-jAWptHmIB5WhuCbmyYkngi45eWFdZdhqC3kn_NobtS9ywvB2lQXK7smFFU80PSxbllPeOlfTYiTwULXnwr_8J8sB3Zb-EaqvdDZX0L3ySFbRi7jMTfCQu-ehDnkCxobdr4A9qg707UAns_rACqebUWZtOB3DDtnqpmmPbV-uHjknnd_eNUcmzLDU-RQb7tQjFmLD74C9g4WiL8o7wpWdJun4e32U3lvoBgX11BQB3nkFyum6m7i5b_4SgMfZYRoMNreQH5CXVPlY6UvYIAEqCXVzLWVhc3QtMjD3Bw.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept": "*/*",
+        "Connection": "keep-alive",
+        "referer": "https://player.twitch.tv",
+        "origin": "https://player.twitch.tv"
+      },
+      "master": "https://usher.ttvnw.net/api/channel/hls/zackrawrr.m3u8?player=twitchweb&p=347214&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=3be4dcba91fba3ca4c09326fec556194a77d9071&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22zackrawrr%22%2C%22channel_id%22%3A552120296%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1699307621%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2270.81.221.239%22%2C%22version%22%3A2%7D&fast_bread=True"
+    },
+    "worst": {
+      "type": "hls",
+      "url": "https://video-weaver.ymq03.hls.ttvnw.net/v1/playlist/CsgEXF-s6EkEJ7RWG5gQ0isi-gZook4aCd9y5ztfXJPahdLDexawHU9mS7OQ4z5f30KdjXZ8GXapsrwgmgwW63YQLqUQA7af_ruAXcKDyR2BWhDQHeu0oQx6miLbKK0AxjnChgPkmV8ed6933pGR6VCMIbGpqKXkxa-lF5gcxAL__nKEe1BXdlwHK4rnaZLd9XXJZnG_TUi2SpHxeNd3SKcIjw7-Vl8WbtoQ6-zY5HEaDw4lo-J3_Eomb7iM-TG1kmUbDOTxWrdtrgbM_Tb32sBY8Ue1GKssq3gVPDO6IgyJwq-QxWPBjMJCZB3GiGxQjPGCXPwGJks9HzFVPt78fgeJPqFd_x1zUnt6PDdw22-TxK5q5W6Sjrdpr0xgo0lqVPMBu-UI2nub7V_hDSPCXddg53_ax2-vAh7U2lzJmaV-Ru4lnuTvrO3O9Sv1LnWo3oowGhMpFklqUX2zfjJ4szT0ynDgXSMkao1AeHcj2xE5qAcd2OYF4Mr5zMz3PQ1qoBIn1LO-C9CUthshphqzagwIB13JiTvXt0vYkF2WEEaxTmrO7hFusTWlj5dsi9zCk1JHyVcekrfm29Qp_aMmz_Sj7Oy0YazZRPxOJHxTr-Mgdcx4J9n9llzecJMxBkNAXX9GkdH0RtBLlBm6PI_eXAcF8oX7RwkLiCPgnsLSSCkGAb5MLpN4vA9WbtwxKwao9dP8IdZxobyOspGz2b6wjRpQoNAoTKDjSstHQd8ES4VeEoo8yO23m44eFwDF_xkmQJl3woRi_MiKsGwaDJxYzsWhMbqnbB2zNiABKgl1cy1lYXN0LTIw9wc.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept": "*/*",
+        "Connection": "keep-alive",
+        "referer": "https://player.twitch.tv",
+        "origin": "https://player.twitch.tv"
+      },
+      "master": "https://usher.ttvnw.net/api/channel/hls/zackrawrr.m3u8?player=twitchweb&p=347214&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=3be4dcba91fba3ca4c09326fec556194a77d9071&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22zackrawrr%22%2C%22channel_id%22%3A552120296%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1699307621%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2270.81.221.239%22%2C%22version%22%3A2%7D&fast_bread=True"
+    },
+    "best": {
+      "type": "hls",
+      "url": "https://video-weaver.ymq03.hls.ttvnw.net/v1/playlist/CsoEezkWtnxCx2z_h0sXhDWaO92G1A4myc_pgnTdOBJaYtGDt49in-lFqzXgN3uDIxAjgQjDi_nuVco4vtQqaX9acMbhrrDblchOF8tGrd4eIRHM-Tgo5L7JEEUMouQjABzVzhkGFhap-UnymbVPv0ZYdhn5rcJBteq0fULCQ19hC8_ICAcQkogXjl3lY_UNBJuoVSW8oTIBJFl3xiW-Rr4lF6ti4MnifJ3yli_U4BcL92LUyEjmXOJy_pWrOOIftm97Q4GoYScbTv0Pqqr3x-l6bShBKLzfAi3e69oPNZ-VBkSoMD3_fZn9_pXnbxkshb6KKBI7_5RKvFQCh_Ve67jj90xyqTFDC2FgolkB0XjZlMzwqHfGf1LuOdQG7yQ_trfjJlwkyJOGm-fuoXYUNNp9cfYXSsqSUbE3qXaE2d3xaJdgjuv6d_9NHT8Al3FUzRv4Dt-0PD1bkWcA5DWShXTXgSNXDoIxjGVKxjz05-FkeDVTZk2NI1TWwDnAZ7gMP1MD2BjPvcd41Q-euEn-jAWptHmIB5WhuCbmyYkngi45eWFdZdhqC3kn_NobtS9ywvB2lQXK7smFFU80PSxbllPeOlfTYiTwULXnwr_8J8sB3Zb-EaqvdDZX0L3ySFbRi7jMTfCQu-ehDnkCxobdr4A9qg707UAns_rACqebUWZtOB3DDtnqpmmPbV-uHjknnd_eNUcmzLDU-RQb7tQjFmLD74C9g4WiL8o7wpWdJun4e32U3lvoBgX11BQB3nkFyum6m7i5b_4SgMfZYRoMNreQH5CXVPlY6UvYIAEqCXVzLWVhc3QtMjD3Bw.m3u8",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept": "*/*",
+        "Connection": "keep-alive",
+        "referer": "https://player.twitch.tv",
+        "origin": "https://player.twitch.tv"
+      },
+      "master": "https://usher.ttvnw.net/api/channel/hls/zackrawrr.m3u8?player=twitchweb&p=347214&type=any&allow_source=true&allow_audio_only=true&allow_spectre=false&sig=3be4dcba91fba3ca4c09326fec556194a77d9071&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22zackrawrr%22%2C%22channel_id%22%3A552120296%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3Anull%2C%22expires%22%3A1699307621%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22embed%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3Anull%2C%22user_ip%22%3A%2270.81.221.239%22%2C%22version%22%3A2%7D&fast_bread=True"
+    }
+  }
+}
