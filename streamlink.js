@@ -48,7 +48,7 @@ export default class Streamlink extends EventEmitter {
                 console.error(err)
             })
 
-            this.live.on('close', (code, st) => this.end(code, st))
+            this.live.on('close', (code) => this.end(code, st))
         })
         return this
     }
@@ -57,7 +57,7 @@ export default class Streamlink extends EventEmitter {
         return this
     }
 
-    end = (code, st) => {
+    end = (code) => {
         const endOutput = {
             exitCode: code,
             duration: Math.floor(Date.now() / 1000) - this.startTime,
