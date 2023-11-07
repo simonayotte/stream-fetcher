@@ -1,9 +1,7 @@
 import Streamlink from './streamlink.js'
 
-console.log('Fetching stream...')
-
-let link = 'https://www.twitch.tv/zackrawrr'
-let stream = new Streamlink(link).output('./' + Date.now() + '.flv').start()
+const link = 'https://www.twitch.tv/m0nesyof'
+const stream = new Streamlink(link).output(`./${Date.now()}.flv`).start()
 
 stream.getQualities()
 
