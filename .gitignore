@@ -1,2 +1,3 @@
 node_modules
 *.flv
+.DS_Store
