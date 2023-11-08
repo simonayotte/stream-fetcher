@@ -19,15 +19,15 @@ export default class Ffmpeg {
             this.rtmpUrl,
         ]
       
-        this.ffmpeg = spawn('ffmpeg', args);
+        this.ffmpeg = spawn('ffmpeg', args)
 
         this.ffmpeg.stderr.on('data', (err) => {
-            console.error(`stderr: ${err}`);
+            console.error(`stderr: ${err}`)
         })
     }
 
     // Method to pipe data hlsStream -> ffmpeg process
     pipeStream = (hlsStream) => {
-        hlsStream.pipe(this.ffmpeg.stdin);
+        hlsStream.pipe(this.ffmpeg.stdin)
     }
 }

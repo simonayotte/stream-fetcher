@@ -1,6 +1,10 @@
 import Streamlink from './streamlink.js'
+import RTMPServer from './rtmp.js'
 
-const link = 'https://www.twitch.tv/thebausffs'
+const rtmp = new RTMPServer()
+rtmp.run()
+
+const link = 'https://www.twitch.tv/zackrawrr'
 const stream = new Streamlink(link).start()
 
 stream.getQualities()

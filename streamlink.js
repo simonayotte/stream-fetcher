@@ -3,6 +3,7 @@ import { EventEmitter } from 'events';
 import kill from 'tree-kill';
 
 import hlsStream from './HLSStream.js'
+import Ffmpeg from './Ffmpeg.js';
 
 export default class Streamlink extends EventEmitter {
     constructor(stream) {
@@ -42,6 +43,9 @@ export default class Streamlink extends EventEmitter {
             this.startTime = Math.floor(Date.now() / 1000)
 
             this.live = spawn('streamlink', args)
+            
+            const ffmpeg = new Ffmpeg('rtmp://localhost:1935')
+            ffmpeg.pipeStream(hlsStream)
 
             // Override the 'data' event of 'this.live.stdout' to handle the data
             this.live.stdout.on('data', (d) => {
