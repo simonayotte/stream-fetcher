@@ -2,6 +2,8 @@ import { spawn, exec } from 'child_process';
 import { EventEmitter } from 'events';
 import kill from 'tree-kill';
 
+import hlsStream from './HLSStream.js'
+
 export default class Streamlink extends EventEmitter {
     constructor(stream) {
         super()
@@ -35,13 +37,17 @@ export default class Streamlink extends EventEmitter {
                 return
             }
 
-            const args = ['--stdout', this.stream, this.qual || 'best'];
+            const args = ['--stdout', this.stream, this.qual || 'best']
         
             this.startTime = Math.floor(Date.now() / 1000)
+
             this.live = spawn('streamlink', args)
 
+            // Override the 'data' event of 'this.live.stdout' to handle the data
             this.live.stdout.on('data', (d) => {
-                this.emit('log', d.toString())
+                // this.emit('log', d.toString())
+                // Sending data to the hlsStream 
+                hlsStream.push(d)
             })
 
             this.live.on('error', err => {
