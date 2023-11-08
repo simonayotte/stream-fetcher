@@ -3,3 +3,4 @@
 
 ## Dependencies
 - [Streamlink](https://github.com/streamlink/streamlink)
+- [ffmpeg](https://ffmpeg.org/ffmpeg.html)
