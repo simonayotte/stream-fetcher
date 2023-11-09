@@ -1,6 +1,6 @@
 import { spawn, exec } from 'child_process';
 import { EventEmitter } from 'events';
-import kill from 'tree-kill';
+import  kill  from 'tree-kill';
 
 import hlsStream from './HLSStream.js'
 import Ffmpeg from './Ffmpeg.js';
@@ -21,7 +21,7 @@ export default class Streamlink extends EventEmitter {
 
             if (err) {
                 console.error(err)
-                return
+                throw err
             }
 
             const json = JSON.parse(stdout)
@@ -31,35 +31,41 @@ export default class Streamlink extends EventEmitter {
     }
 
     start = (done) => {
-        this.isLive(live => {
-
-            if (!live) {
-                this.emit('err', 'Is not live.')
-                return
-            }
-
-            const args = ['--stdout', this.stream, this.qual || 'best']
-        
-            this.startTime = Math.floor(Date.now() / 1000)
-
-            this.live = spawn('streamlink', args)
+        try {
+            this.isLive(live => {
             
-            const ffmpeg = new Ffmpeg('rtmp://localhost:1935')
-            ffmpeg.pipeStream(hlsStream)
-
-            // Override the 'data' event of 'this.live.stdout' to handle the data
-            this.live.stdout.on('data', (d) => {
-                // this.emit('log', d.toString())
-                // Sending data to the hlsStream 
-                hlsStream.push(d)
+                if (!live) {
+                    const error = new Error('Is not live.')
+                    this.emit('err', error.message) 
+                    throw error
+                }
+    
+                const args = ['--stdout', this.stream, this.qual || 'best']
+            
+                this.startTime = Math.floor(Date.now() / 1000)
+    
+                this.live = spawn('streamlink', args)
+                
+                const ffmpeg = new Ffmpeg('rtmp://localhost:1935')
+                ffmpeg.pipeStream(hlsStream)
+               
+                // Override the 'data' event of 'this.live.stdout' to handle the data
+                this.live.stdout.on('data', (d) => {
+                    // this.emit('log', d.toString())
+                    // Sending data to the hlsStream 
+                    hlsStream.push(d)
+                })
+    
+                this.live.on('error', err => {
+                    console.error(err)
+                })
+    
+                this.live.on('close', (code) => this.end(code, done))
             })
-
-            this.live.on('error', err => {
-                console.error(err)
-            })
-
-            this.live.on('close', (code) => this.end(code, st))
-        })
+        } catch (err) {
+           console.error(err)
+           done(err)
+        }
         return this
     }
 
@@ -67,7 +73,7 @@ export default class Streamlink extends EventEmitter {
         return this
     }
 
-    end = (code) => {
+    end = (code, done) => {
         const endOutput = {
             exitCode: code,
             duration: Math.floor(Date.now() / 1000) - this.startTime,
@@ -76,6 +82,7 @@ export default class Streamlink extends EventEmitter {
         }
         this.emit('end', endOutput)
         if (this.live) kill(this.live.pid)
+        done(endOutput)
         return endOutput
     }
 

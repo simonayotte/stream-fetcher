@@ -24,6 +24,10 @@ export default class Ffmpeg {
         this.ffmpeg.stderr.on('data', (err) => {
             console.error(`stderr: ${err}`)
         })
+
+        this.ffmpeg.stdout.on('data', (d) => {
+            console.log(d)
+        })
     }
 
     // Method to pipe data hlsStream -> ffmpeg process

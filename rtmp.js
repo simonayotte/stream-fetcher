@@ -13,7 +13,8 @@ export default class RTMPServer {
             http: {
               port: 8000,
               allow_origin: '*'
-            }
+            },
+            logType: 3
         }
 
         this.nms = new NodeMediaServer(config)
