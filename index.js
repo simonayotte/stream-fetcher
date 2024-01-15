@@ -4,7 +4,7 @@ import RTMPServer from './rtmp.js'
 const rtmp = new RTMPServer()
 rtmp.run()
 
-const link = 'https://www.twitch.tv/ninja'
+const link = 'https://www.twitch.tv/lec'
 const stream = new Streamlink(link).start()
 
 stream.getQualities()

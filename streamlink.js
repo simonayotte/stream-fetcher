@@ -40,13 +40,13 @@ export default class Streamlink extends EventEmitter {
                     throw error
                 }
     
-                const args = ['--stdout', this.stream, this.qual || 'best']
+                const args = ['--stdout', this.stream, this.qual || '360p']
             
                 this.startTime = Math.floor(Date.now() / 1000)
     
                 this.live = spawn('streamlink', args)
                 
-                const ffmpeg = new Ffmpeg('rtmp://localhost:1935')
+                const ffmpeg = new Ffmpeg('rtmp://localhost:1935/live')
                 ffmpeg.pipeStream(hlsStream)
                
                 // Override the 'data' event of 'this.live.stdout' to handle the data
